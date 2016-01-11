@@ -32,3 +32,16 @@ Put your credentials in the following configuration files.
 - Move your `google-services.json` configuration file to `geo-android/GeoApp/app/`.
 - Put the Google Maps API key in `geo-android\GeoApp\app\src\main\res\values\google_maps_api.xml`.
 - Put the remote server connection information in `geo-android\GeoApp\app\src\main\res\values\remote_server.xml`.
+
+
+## Execution
+All three tiers are easy to run.
+
+### DB
+- Run the PostgreSQL server equipped with the PostGIS extension as any PostgreSQL instance.
+
+### Server
+- Run `geo-backend/src/main/java/com/zenika/back/Application.java` as a Spring Boot application.
+
+### Client
+- Run `/geo-android/GeoApp/app/src/main/java/com/zenika/geoapp/MainActivity.java` as an Android application.
