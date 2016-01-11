@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GeoApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_map">My location</string>
+    <string name="menu_location_update">Location updates</string>
+    <string name="menu_debug">Debug</string>
+    <string name="menu_mock_run">Mock run</string>
+
+
+
+    <string name="location_update_register_title">Register for location updates</string>
+    <string name="location_update_unregister_title">Unregister for all updates</string>
+    <string name="location_update_register">Register</string>
+    <string name="location_update_unregister">Unregister</string>
+    <string-array name="array_location_update">
+        <item>Network and Wi-Fi</item>
+        <item>GPS</item>
+    </string-array>
+
+    <string name="location_permission_denied">Please allow access to location services.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

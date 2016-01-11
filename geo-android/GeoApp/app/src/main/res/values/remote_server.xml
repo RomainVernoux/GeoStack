@@ -1,0 +1,3 @@
+<resources>
+    <string name="remote_server_address" templateMergeStrategy="preserve" translatable="false"></string>
+</resources>

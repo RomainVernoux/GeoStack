@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/map" android:icon="@drawable/ic_action_map"
+            android:title="@string/menu_map" />
+        <item android:id="@+id/location_update" android:icon="@drawable/ic_action_location"
+            android:title="@string/menu_location_update" />
+    </group>
+
+    <item android:title="@string/menu_debug">
+        <menu>
+            <item android:id="@+id/mock_run" android:icon="@drawable/ic_action_mock_run"
+                android:title="@string/menu_mock_run"/>
+        </menu>
+    </item>
+
+</menu>
