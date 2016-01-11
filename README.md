@@ -45,3 +45,4 @@ All three tiers are easy to run.
 
 ### Client
 - Run `/geo-android/GeoApp/app/src/main/java/com/zenika/geoapp/MainActivity.java` as an Android application.
+- Note : to use the "Mock location" debug feature from inside the app, you need to allow mock location on your Android device (`Settings -> Developer options -> Allow mock location` or `Settings -> Developer options -> Select mock location app`)
